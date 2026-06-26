@@ -5,5 +5,5 @@ DATE=$(date +"%Y%m%d_%H%M%S")
 echo "DATE: $DATE"
 name=${FileName}_${DATE}
 echo "Archiving the file: $name"
-tar -czf "$name.tar.gz" "$name"
+tar -czf "$name.tar.gz" "$FileName"
 echo "File archived successfully: $name.tar.gz"
